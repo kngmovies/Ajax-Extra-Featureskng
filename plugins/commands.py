@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('💠 MOVIE REQUEST 💠', url='https://t.me/movie_dropbox_bot')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('📥 CHAT ROOM 📥', url='https://t.me/movie_chat_room''),
+            InlineKeyboardButton('📥 CHAT ROOM 📥', url='https://t.me/movie_chat_room'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://www.youtube.com/channel/UC6dB3PPjg1KmIW_1r7YUuCA?')
@@ -89,7 +89,7 @@ async def start(client, message):
             InlineKeyboardButton('💠 MOVIE REQUEST 💠', url='https://t.me/movie_dropbox_bot')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('📥 CHAT ROOM 📥', url='https://t.me/movie_chat_room''),
+            InlineKeyboardButton('📥 CHAT ROOM 📥', url='https://t.me/movie_chat_room'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://www.youtube.com/channel/UC6dB3PPjg1KmIW_1r7YUuCA?')
