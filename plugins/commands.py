@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('📥 CHAT ROOM 📥', url='https://t.me/movie_chat_room'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://www.youtube.com/channel/UC6dB3PPjg1KmIW_1r7YUuCA?')
+            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://www.youtube.com/kngmovies')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -92,7 +92,7 @@ async def start(client, message):
             InlineKeyboardButton('📥 CHAT ROOM 📥', url='https://t.me/movie_chat_room'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://www.youtube.com/channel/UC6dB3PPjg1KmIW_1r7YUuCA?')
+            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://www.youtube.com/kngmovies')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -241,7 +241,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='youtube.com/UC6dB3PPjg1KmIW_1r7YUuCA') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='youtube.com/kngmovies') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
