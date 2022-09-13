@@ -757,19 +757,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://www.youtube.com/channel/UC6dB3PPjg1KmIW_1r7YUuCA?')
         ]]
         reply1 = await query.message.reply_text(
-            text="●○○"
+            text="●○○○"
         )
         await asyncio.sleep(0.2)
         reply2 = await reply1.edit_text(
-            text="●○○"
+            text="●●○○"
         )
         await asyncio.sleep(0.2)
         reply3 = await reply2.edit_text(
-            text="●●○"
+            text="●●●○"
         )
         await asyncio.sleep(0.2)
         reply4 = await reply3.edit_text(
-            text="●●●"
+            text="●●●●"
         )
         await reply4.delete(0.2)
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -913,19 +913,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
         ]]
         reply1 = await query.message.reply_text(
-            text="●○○"
+            text="●○○○"
         )
         await asyncio.sleep(0.5)
         reply2 = await reply1.edit_text(
-            text="●○○"
+            text="●●○○"
         )
         await asyncio.sleep(0.5)
         reply3 = await reply2.edit_text(
-            text="●●○"
+            text="●●●○"
         )
         await asyncio.sleep(0.5)
         reply4 = await reply3.edit_text(
-            text="●●●"
+            text="●●●●"
         )
         await reply4.delete(0.2)
         reply_markup = InlineKeyboardMarkup(buttons)
